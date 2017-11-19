@@ -1,0 +1,4 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ apt.systemd.daily\[[0-9]+]]: .*
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: apt-daily.timer: Adding [0-9.hmins ]* random time.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Starting Daily apt activities...
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Started Daily apt activities.

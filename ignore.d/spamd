@@ -1,0 +1,21 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: Can only handle IPv4( and IPv6)? addresses; skipping greylisting call for message
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: handled cleanup of child pid \[[0-9]*\] due to SIGCHLD: ((INTERRUPTED|interrupted), signal [0-9]+ \([0-9]+\)|exit 0)
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: prefork: adjust: [0-9]+ idle children more than [0-9]+ maximum idle children. Decreasing spamd children: [0-9]+ killed.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: prefork: adjust: [0-9]+ idle children less than [0-9]+ minimum idle children. Increasing spamd children: [0-9]+ started.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: FuzzyOcr: Skipping [a-z-]*, image too small
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (spamd|check|re(port|voke))\[[[:digit:]]+\]: (spamd: )?result: [.YN] [ [:digit:]-]+ - ([._[:alnum:],]+ )?scantime=[[:digit:].]+,size=[[:digit:]]+,(user=[^,]+,uid=[[:digit:]]+,required_score=[[:digit:].]+,rhost=[._[:alnum:]-]+,raddr=[[:digit:].]+,rport=[/[:alnum:].-]+,)?mid=(<[^[:space:]]+>|\(unknown\))(,rmid=(<[^[:space:]]+>|\(unknown\)))?,(bayes=[.[:digit:]]+(e-[[:digit:]]+)?,)?autolearn=(ham|spam|no|disabled|unavailable)(,shortcircuit=(ham|spam|no))? *$
+
+
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: server hit by SIGHUP, restarting
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: child \[[0-9]+\] killed successfully: interrupted, signal 2 \(0002\)
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: zoom: able to use [0-9/]+ 'body_0' compiled rules \(100%\)
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: Couldn't get Connecting IP header X-SA-Exim-Connect-IP for message <[0-9.]+@spamassassin_spamd_init>, skipping greylisting call
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: server started on port 783/tcp \(running version [0-9.]+\)
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\.pid\[[0-9]+\]: spamd: restarting using '/usr/sbin/spamd --create-prefs --max-children 10 --helper-home-dir -d --pidfile=/var/run/spamd.pid'
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: dns: new_dns_packet \(domain=.* type=(A|NS|TXT) class=IN\) failed: (a label in a domain name is longer than 63 bytes|a domain name contains a null label)
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: dns: reply to .* truncated \(EDNS [0-9]* bytes\), [0-9]* answer records
+
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (spamd|check|re(port|voke))\[[[:digit:]]+\]:( spamd:)? connection from [._[:alnum:]-]+ \[[\.[:digit:]]+\][:[:digit:]]* to port [[:digit:]]+, fd [[:digit:]]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (spamd|check|re(port|voke))\[[[:digit:]]+\]: (spamd: )?result: [.YN] [ [:digit:]-]+ - ([._[:alnum:],]+ )?scantime=[[:digit:].]+,size=[[:digit:]]+,(user=[^,]+,uid=[[:digit:]]+,required_score=[[:digit:].]+,rhost=[._[:alnum:]-]+,raddr=[[:digit:].]+,rport=[/[:alnum:].-]+,)?mid=(<[^[:space:]]+>|\(unknown\)),(rmid=(<[^[:space:]]+>|\(unknown\)),)?(bayes=[.[:digit:]]+(e-[[:digit:]]+)?,)?autolearn=(ham|spam|no|disabled|unavailable)( autolearn_force=(ham|spam|no|disabled|unavailable))?(,shortcircuit=(ham|spam|no))? *$
+
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: Reached greylisterror: Couldn't read time / Is a directory at /usr/share/perl5/Mail/SpamAssassin/Plugin/Greylisting.pm line [0-9]+.
