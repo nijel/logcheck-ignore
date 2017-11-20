@@ -1,4 +1,4 @@
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ git-daemon\[[[:digit:]]{2,5}\]: Connection from [0-9a-f.:\[\]]+
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ git-daemon\[[[:digit:]]{2,5}\]: Connection from [][0-9a-f.:]+
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ git-daemon\[[[:digit:]]{2,5}\]: Extended attributes \([0-9]+ bytes\) exist
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ git-daemon\[[[:digit:]]{2,5}\]: Request upload-pack for '[-_./[:alnum:]]+'
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ git-daemon\[[[:digit:]]{2,5}\]: \[[[:digit:]]{2,5}\] Disconnected
