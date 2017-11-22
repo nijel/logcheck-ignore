@@ -19,3 +19,9 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (spamd|check|re(port|voke))\[[[:digit:]]+\]: (spamd: )?result: [.YN] [ [:digit:]-]+ - ([._[:alnum:],]+ )?scantime=[[:digit:].]+,size=[[:digit:]]+,(user=[^,]+,uid=[[:digit:]]+,required_score=[[:digit:].]+,rhost=[._[:alnum:]-]+,raddr=[[:digit:].]+,rport=[/[:alnum:].-]+,)?mid=(<[^[:space:]]+>|\(unknown\)),(rmid=(<[^[:space:]]+>|\(unknown\)),)?(bayes=[.[:digit:]]+(e-[[:digit:]]+)?,)?autolearn=(ham|spam|no|disabled|unavailable)( autolearn_force=(ham|spam|no|disabled|unavailable))?(,shortcircuit=(ham|spam|no))? *$
 
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: Reached greylisterror: Couldn't read time / Is a directory at /usr/share/perl5/Mail/SpamAssassin/Plugin/Greylisting.pm line [0-9]+.
+
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Reloading Perl-based spam filter using text analysis.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Reloaded Perl-based spam filter using text analysis.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: server socket closed, type IO::Socket::IP
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamassassin.pid --create-prefs --max-children=[0-9]+ --max-spare=[0-9]+ --helper-home-dir: spamd: restarting using '/usr/sbin/spamd -d --pidfile=/var/run/spamassassin.pid --create-prefs --max-children=[0-9]+ --max-spare=[0-9]+ --helper-home-dir'
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: server started on (IO::Socket::IP \[[0-9a-f:.]+\]:[0-9+],?)+ \(running version [0-9.]+\)
