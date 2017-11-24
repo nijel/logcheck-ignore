@@ -18,7 +18,7 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (spamd|check|re(port|voke))\[[[:digit:]]+\]:( spamd:)? connection from [._[:alnum:]-]+ \[[\.[:digit:]]+\][:[:digit:]]* to port [[:digit:]]+, fd [[:digit:]]+$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (spamd|check|re(port|voke))\[[[:digit:]]+\]: (spamd: )?result: [.YN] [ [:digit:]-]+ - ([._[:alnum:],]+ )?scantime=[[:digit:].]+,size=[[:digit:]]+,(user=[^,]+,uid=[[:digit:]]+,required_score=[[:digit:].]+,rhost=[._[:alnum:]-]+,raddr=[[:digit:].]+,rport=[/[:alnum:].-]+,)?mid=(<[^[:space:]]+>|\(unknown\)),(rmid=(<[^[:space:]]+>|\(unknown\)),)?(bayes=[.[:digit:]]+(e-[[:digit:]]+)?,)?autolearn=(ham|spam|no|disabled|unavailable)( autolearn_force=(ham|spam|no|disabled|unavailable))?(,shortcircuit=(ham|spam|no))? *$
 
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: Reached greylisterror: Couldn't read time / Is a directory at /usr/share/perl5/Mail/SpamAssassin/Plugin/Greylisting.pm line [0-9]+.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: Reached greylisterror: Couldn't read time / (Is a directory )?at /usr/share/perl5/Mail/SpamAssassin/Plugin/Greylisting.pm line [0-9]+.
 
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Reloading Perl-based spam filter using text analysis.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Reloaded Perl-based spam filter using text analysis.
