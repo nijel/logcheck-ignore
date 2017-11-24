@@ -24,4 +24,4 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Reloaded Perl-based spam filter using text analysis.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: server socket closed, type IO::Socket::IP
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamassassin.pid --create-prefs --max-children=[0-9]+ --max-spare=[0-9]+ --helper-home-dir: spamd: restarting using '/usr/sbin/spamd -d --pidfile=/var/run/spamassassin.pid --create-prefs --max-children=[0-9]+ --max-spare=[0-9]+ --helper-home-dir'
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: server started on (IO::Socket::IP \[[0-9a-f:.]+\]:[0-9+],?)+ \(running version [0-9.]+\)
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: server started on (IO::Socket::IP \[[0-9a-f:.]+\]:[0-9+](, )?)+ \(running version [0-9.]+\)
