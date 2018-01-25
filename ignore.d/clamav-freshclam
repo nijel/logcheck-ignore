@@ -3,4 +3,4 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: Empty script safebrowsing-[0-9]+.cdiff, need to download entire database$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: WARNING: Your ClamAV installation is OUTDATED!
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: WARNING: Local version: [0-9.]+ Recommended version: [0-9.]+
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: DON'T PANIC! Read http://www.clamav.net/support/faq
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: DON'T PANIC! Read (http://www.clamav.net/support/faq|http://www.clamav.net/documents/upgrading-clamav)
