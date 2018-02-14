@@ -1,0 +1,3 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ syncthing\[[0-9]+\]: \[[A-Z]*\] INFO: Device [^ ]+ client is "syncthing v[^ ]+" named "nutt"
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ syncthing\[[0-9]+\]: \[[A-Z]*\] INFO: Established secure connection to [^ ]+ at [0-9a-f.:-]+ (relay-client) (TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305)
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ syncthing\[[0-9]+\]: \[[A-Z]*\] INFO: Connection to [^ ]+ closed: reading length: EOF
