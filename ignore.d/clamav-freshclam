@@ -1,9 +1,10 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?(main|daily|safebrowsing|bytecode)\.c(l|v)d (is up to date|updated) \(version: [0-9]+, sigs: [0-9]+, f-level: [0-9]+, builder: \w+\)$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Downloading (daily|safebrowsing|bytecode)(-[0-9]+)?.(cdiff|cvd) \[(100%|\*)\] ?$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Empty script safebrowsing-[0-9]+.cdiff, need to download entire database$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?WARNING: Your ClamAV installation is OUTDATED!
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?WARNING: Local version: [0-9.]+ Recommended version: [0-9.]+
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?DON'T PANIC! Read (http://www.clamav.net/support/faq|http://www.clamav.net/documents/upgrading-clamav)
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?(WARNING:|\^) Your ClamAV installation is OUTDATED!
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?(WARNING:|\^) Local version: [0-9.]+ Recommended version: [0-9.]+
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?DON'T PANIC! Read (http://www.clamav.net/support/faq|http://www.clamav.net/documents/upgrading-clamav|https://www.clamav.net/documents/upgrading-clamav)
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Database updated \([0-9]+ signatures\) from .*
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Received signal: wake up
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?ClamAV update process started at .*
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Clamd successfully notified about the update.

@@ -1,3 +1,5 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ clamd\[[0-9]+\]: LibClamAV Error: yyerror\(\): /var/lib/clamav/antidebug_antivm.yar line [0-9]* undefined identifier "pe"
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ clamd\[[0-9]+\]: LibClamAV Error: cli_loadyara: failed to parse rules file /var/lib/clamav/antidebug_antivm.yar, error count [0-9]+
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ clamd\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?SelfCheck: Database status OK.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ clamd\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Reading databases from /var/lib/clamav
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ clamd\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Database correctly reloaded \([0-9]+ signatures\)
