@@ -1,0 +1,9 @@
+Jul 17 09:07:06 mail freshclam[8265]: Tue Jul 17 09:07:06 2018 -> Received signal: wake up
+Jul 17 09:07:06 mail freshclam[8265]: Tue Jul 17 09:07:06 2018 -> ClamAV update process started at Tue Jul 17 09:07:06 2018
+Jul 17 09:07:06 mail freshclam[8265]: Tue Jul 17 09:07:06 2018 -> ^Your ClamAV installation is OUTDATED!
+Jul 17 09:07:06 mail freshclam[8265]: Tue Jul 17 09:07:06 2018 -> ^Local version: 0.100.0 Recommended version: 0.100.1
+Jul 17 09:07:06 mail freshclam[8265]: Tue Jul 17 09:07:06 2018 -> DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+Jul 17 09:07:06 mail freshclam[8265]: Tue Jul 17 09:07:06 2018 -> main.cld is up to date (version: 58, sigs: 4566249, f-level: 60, builder: sigmgr)
+Jul 17 09:07:06 mail freshclam[8265]: Tue Jul 17 09:07:06 2018 -> daily.cld is up to date (version: 24760, sigs: 2015700, f-level: 63, builder: neo)
+Jul 17 09:07:06 mail freshclam[8265]: Tue Jul 17 09:07:06 2018 -> safebrowsing.cld is up to date (version: 47632, sigs: 2975343, f-level: 63, builder: google)
+Jul 17 09:07:06 mail freshclam[8265]: Tue Jul 17 09:07:06 2018 -> bytecode.cld is up to date (version: 324, sigs: 89, f-level: 63, builder: neo)
