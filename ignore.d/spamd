@@ -17,6 +17,7 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: dns: reply to .* truncated \(EDNS [0-9]* bytes\), [0-9]* answer records
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: dns: new_dns_packet: domain is utf8 flagged:
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: util: setuid: ruid=101 euid=101 rgid=103 103 egid=103 103
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: internal error, python traceback seen in response
 
 
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ (spamd|check|re(port|voke))\[[[:digit:]]+\]:( spamd:)? connection from [._[:alnum:]-]+ \[[\.[:digit:]]+\][:[:digit:]]* to port [[:digit:]]+, fd [[:digit:]]+$
