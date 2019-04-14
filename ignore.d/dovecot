@@ -2,7 +2,7 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dovecot: IMAP\([-_.@[:alnum:]]+\): Disconnected: Logged out bytes=[0-9/]*
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dovecot: IMAP\([-_.@[:alnum:]]+\): Disconnected for inactivity bytes=[0-9/]*
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dovecot: IMAP\([-_.@[:alnum:]]+\): Disconnected in IDLE bytes=[0-9/]*
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dovecot: lda\([-_.@[:alnum:]]+\): (sieve: )?msgid=(<?[^[:space:]]+(>|\.\.\.)?)?( \((added by [^[:space:]]+|sfid-[_[:xdigit:]]+)\))?: (saved mail to [-_.&[:alnum:]]+|forwarded to <[^[:space:]]+>|discarded)$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dovecot: lda\([-_.@[:alnum:]]+\)(<[0-9]+><[a-zA-Z0-9]+>)?: (sieve: )?msgid=(<?[^[:space:]]+(>|\.\.\.)?)?( \((added by [^[:space:]]+|sfid-[_[:xdigit:]]+)\))?: (saved mail to [-_.&[:alnum:]]+|forwarded to <[^[:space:]]+>|discarded)$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dovecot: lda\([-_.@[:alnum:]]+\)(<[^>]*><[^>]*>)?: sieve: msgid=(\? )?(<?[^[:space:]]+(>|\.\.\.)?)?( \((added by [^[:space:]]+|sfid-[_[:xdigit:]]+)\))?: (stored mail into mailbox ('[^']*'|[A-Z]+)|marked message to be discarded if not explicitly delivered)
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dovecot: imap-login: Login: user=<[^>]*>, method=[A-Z]*, rip=[0-9a-f:.]*, lip=[0-9a-f:.]*, mpid=[0-9]*, TLS
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dovecot: imap\([^)]*\)(<[^>]*><[^>]*>)?: (Connection closed|Disconnected: Logged out|Logged out|Disconnected: Disconnected in IDLE|Disconnected for inactivity)
