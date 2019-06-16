@@ -12,3 +12,4 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: apt-daily(-upgrade)?.service: Succeeded.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Starting Daily man-db regeneration...
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Started Daily man-db regeneration.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd-tmpfiles\[[0-9]+\]: \[[^]]+\] Line references path below legacy directory /var/run/, updating .*; please update the tmpfiles.d/ drop-in file accordingly.
