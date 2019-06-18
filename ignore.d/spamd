@@ -13,10 +13,13 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: Couldn't get Connecting IP header X-SA-Exim-Connect-IP for message <[0-9.]+@spamassassin_spamd_init>, skipping greylisting call
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: server started on port 783/tcp \(running version [0-9.]+\)
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\.pid\[[0-9]+\]: spamd: restarting using '/usr/sbin/spamd --create-prefs --max-children 10 --helper-home-dir -d --pidfile=/var/run/spamd.pid'
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\.pid\[[0-9]+\]: spamd: restarting using '/usr/sbin/spamd -d --pidfile=/var/run/spamd.pid --create-prefs --max-children=[0-9]+ --max-spare=[0-9]+ --helper-home-dir'
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: dns: new_dns_packet \(domain=.* type=(A|NS|TXT) class=IN\) failed: (a label in a domain name is longer than 63 bytes|a domain name contains a null label)
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: dns: reply to .* truncated \(EDNS [0-9]* bytes\), [0-9]* answer records
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: dns: new_dns_packet: domain is utf8 flagged:
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: util: setuid: ruid=101 euid=101 rgid=103 103 egid=103 103
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: util: setuid: ruid=0 euid=0 rgid=0 egid=0
+
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: internal error, python traceback seen in response
 
 
