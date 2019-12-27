@@ -2,6 +2,7 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ syncthing\[[0-9]+\]: \[[A-Z]*\] INFO: Established secure connection to [^ ]+ at [0-9a-f.:-]+ (relay-client) (TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305)
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ syncthing\[[0-9]+\]: \[[A-Z]*\] INFO: Connection to [^ ]+ closed: reading length: EOF
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ syncthing\[[0-9]+\]: \[[A-Z]*\] INFO:
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ syncthing\[[0-9]+\]: \[[A-Z]*\] WARNING: Not sending symlinks to old client .* - please upgrade to v0.14.14 or newer
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: syncthing@.*\.service: Service hold-off time over, scheduling restart.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: syncthing@.*\.service: Scheduled restart job, restart counter is at [0-9]*.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Stopped Syncthing - Open Source Continuous File Synchronization for .*\.
