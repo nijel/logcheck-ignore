@@ -1,5 +1,1 @@
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+.*weblate[a-z0-9-]*\[[0-9]+\]: INFO.*$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+.*weblate[a-z0-9-]*\[[0-9]+\]: DEBUG.*$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+.*weblate[a-z0-9-]*\[[0-9]+\]: ERROR Handled exception Exception: Request for more like [0-9]+ timed out.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+.*weblate[a-z0-9-]*\[[0-9]+\]: ERROR Failed to fetch translations from Weblate similarity
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+.*weblate[a-z0-9-]*\[[0-9]+\]: ERROR Last fetched URL: None, params: None
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+.*weblate[a-z0-9-]*\[[0-9]+\]: (INFO|DEBUG|ERROR).*
