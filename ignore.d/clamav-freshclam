@@ -11,3 +11,4 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?[a-z]+ database available for update \(local version: [0-9]+, remote version: [0-9]+\)
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Testing database: '.*
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Database test passed.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Received signal: re-opening log file
