@@ -1,1 +1,2 @@
 Nov 25 06:21:16 mail dovecot: lda(somebody)<15026><23UgK8vpvV+yOgAAn2Ztdg>: msgid=? <VI1PR10MB2768D36C68484E6673CE1F4684FA0@VI1PR10MB2768.EURPRD10.PROD.OUTLOOK.COM>: saved mail to INBOX
+Nov 24 13:17:36 mail dovecot: lda(nijel)<3532><6HxbHOD5vF/MDQAAn2Ztdg>: Warning: Failed to parse address from `From_'-line: Missing domain
