@@ -1,0 +1,12 @@
+name: Test
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.3.3
+      - run: sudo apt-get update
+      - run: sudo apt install -y logcheck
+      - run: ./test.sh
