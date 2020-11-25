@@ -1,0 +1,2 @@
+Nov 24 20:02:55 mail spamd[12305]: razor2: razor2 check failed: Connection reset by peer razor2: razor2 had unknown error during check at /usr/share/perl5/Mail/SpamAssassin/Plugin/Razor2.pm line 209, <GEN848> line 1. at /usr/share/perl5/Mail/SpamAssassin/Plugin/Razor2.pm line 329.
+Nov 24 07:22:28 mail spamd: spamd: restarting using '/usr/sbin/spamd -d --pidfile=/var/run/spamd.pid --create-prefs --max-children=32 --max-spare=16 --helper-home-dir'
