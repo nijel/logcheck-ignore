@@ -32,3 +32,4 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Reloaded Perl-based spam filter using text analysis.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: server socket closed, type IO::Socket::IP
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: server started on (IO::Socket::IP \[[0-9a-f:.]+\]:[0-9]+(, )?)+ \(running version [0-9.]+\)
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ spamd\[[0-9]+\]: razor2: razor2 check failed: Connection reset by peer razor2: razor2 had unknown error during check at /usr/share/perl5/Mail/SpamAssassin/Plugin/Razor2.pm line [0-9]+, <[A-Z0-9]+> line 1. at /usr/share/perl5/Mail/SpamAssassin/Plugin/Razor2.pm line [0-9]+.
