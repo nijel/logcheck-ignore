@@ -14,7 +14,7 @@ for file in test/* ; do
         tput setaf 3
         echo "$LOG_LINES"
         tput sgr0
-        FAIL=$(($FAIL + 1))
+        FAIL=$((FAIL + 1))
     else
         tput setaf 10
         echo OK

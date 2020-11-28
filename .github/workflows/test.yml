@@ -10,3 +10,4 @@ jobs:
       - run: sudo apt-get update
       - run: sudo apt install -y logcheck
       - run: ./test.sh
+      - run: sudo ./install.sh
