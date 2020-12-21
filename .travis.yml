@@ -1,7 +1,0 @@
-sudo: true
-install:
-  - sudo apt update
-  - sudo apt install logcheck
-script:
- - ./test.sh
-
