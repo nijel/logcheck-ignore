@@ -14,7 +14,6 @@ for file in test/* ; do
     if [ $RESULT -ne 1 -o $LOG_COUNT -ne 0 ] ; then
         echo -e "${RED}FAILED${RESET}"
         echo "$LOG_LINES"
-        tput sgr0
         FAIL=$((FAIL + 1))
     else
         echo -e "${GREEN}OK${RESET}"
