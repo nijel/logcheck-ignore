@@ -11,7 +11,7 @@ for file in test/* ; do
     LOG_LINES=$(logcheck-test -q -i -l "$file" -r "ignore.d/$NAME")
     RESULT=$?
     LOG_COUNT=$(echo -n "$LOG_LINES" | wc -l)
-    if [ "$RESULT" -ne 1 -o "$LOG_COUNT" -ne 0 ] ; then
+    if [ "$RESULT" -ne 1 ] || [ "$LOG_COUNT" -ne 0 ] ; then
         echo -e "${RED}FAILED${RESET}"
         echo "$LOG_LINES"
         FAIL=$((FAIL + 1))
