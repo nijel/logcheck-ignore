@@ -1,6 +1,9 @@
-#!/bin/sh
+#!/bin/bash
 
 FAIL=0
+RED="\e[91m"
+GREEN="\e[92m"
+RESET="\e[0m"
 
 for file in test/* ; do
     NAME=$(basename "$file")
@@ -9,16 +12,12 @@ for file in test/* ; do
     RESULT=$?
     LOG_COUNT=$(echo -n "$LOG_LINES" | wc -l)
     if [ $RESULT -ne 1 -o $LOG_COUNT -ne 0 ] ; then
-        tput setaf 9
-        echo FAILED
-        tput setaf 3
+        echo -e "${RED}FAILED${RESET}"
         echo "$LOG_LINES"
         tput sgr0
         FAIL=$((FAIL + 1))
     else
-        tput setaf 10
-        echo OK
-        tput sgr0
+        echo -e "${GREEN}OK${RESET}"
     fi
 done
 
