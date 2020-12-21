@@ -1,1 +1,1 @@
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ piwik-archive: INFO: .*
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ matomo-archive: INFO: .*
