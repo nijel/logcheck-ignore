@@ -3,3 +3,4 @@ Nov 28 07:02:33 django sshd[32631]: Received disconnect from 202.100.231.210 por
 Nov 28 07:02:33 django sshd[32631]: Disconnected from invalid user math 202.100.231.210 port 59472 [preauth]
 Nov 28 08:13:24 django sshd[7619]: Disconnected from authenticating user root 87.26.3.40 port 51656 [preauth]
 Nov 28 10:38:24 admin sshd[14566]: Connection closed by invalid user elk_user 178.17.174.14 port 56896 [preauth]
+May 10 22:51:13 admin sshd[18044]: Bad protocol version identification 'GET / HTTP/1.1' from 159.203.70.240 port 55600
