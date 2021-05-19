@@ -8,5 +8,5 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Received disconnect from [:.[:xdigit:]]+ port [0-9]+:[0-9]+: Normal Shutdown, Thank you for playing \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Disconnected from (invalid|authenticating) user [^[:space:]]+ [:.[:xdigit:]]+ port [0-9]+ \[preauth\]
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Connection closed by (invalid|authenticating) user [^[:space:]]+ [:.[:xdigit:]]+ port [0-9]+ \[preauth\]
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Bad protocol version identification '(GET|POST) / HTTP/1.1' from [:.[:xdigit:]]+ port [0-9]+
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Bad protocol version identification '(GET|POST) /[^[:space:]]* HTTP/1.1' from [:.[:xdigit:]]+ port [0-9]+
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Did not receive identification string from [:.[:xdigit:]]+ port [0-9]+
