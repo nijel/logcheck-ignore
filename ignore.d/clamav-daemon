@@ -3,4 +3,5 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ clamd\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?SelfCheck: (Database status OK.|Database modification detected. Forcing reload)
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ clamd\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Reading databases from /var/lib/clamav
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ clamd\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Database correctly reloaded \([0-9]+ signatures\)
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ clamd\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Activating the newly loaded database\.\.\.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ clamd\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?SIGHUP caught: re-opening log file.
