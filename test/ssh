@@ -6,3 +6,7 @@ Nov 28 10:38:24 admin sshd[14566]: Connection closed by invalid user elk_user 17
 May 10 22:51:13 admin sshd[18044]: Bad protocol version identification 'GET / HTTP/1.1' from 159.203.70.240 port 55600
 May 10 22:32:05 mail sshd[14341]: Did not receive identification string from 138.197.109.26 port 57332
 May 18 22:37:43 web sshd[11683]: Bad protocol version identification 'POST /run HTTP/1.1' from 209.97.154.110 port 55992
+Oct 17 22:35:50 admin sshd[51486]: error: kex_exchange_identification: banner line contains invalid characters
+Oct 17 22:35:50 admin sshd[51486]: banner exchange: Connection from 159.65.39.244 port 56342: invalid format
+Oct 17 22:36:08 admin sshd[51489]: error: kex_exchange_identification: client sent invalid protocol identifier "GET / HTTP/1.1"
+Oct 17 22:36:08 admin sshd[51489]: banner exchange: Connection from 159.65.39.244 port 60862: invalid format
