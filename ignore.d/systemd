@@ -17,3 +17,6 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: [^ ]*: [^= ]*= references path below legacy directory [^ ,]*, updating .*; please update the unit file accordingly.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd-timesyncd\[[0-9]+\]: Timed out waiting for reply from [0-9.:]+ \([0-9]+\.debian\.pool\.ntp\.org\)\.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd-timesyncd\[[0-9]+\]: Synchronized to time server for the first time [0-9.:]+ \([0-9]+\.debian\.pool\.ntp\.org\)\.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Starting exim4-base housekeeping...
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished exim4-base housekeeping.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: rsyslog.service: Sent signal SIGHUP to main process [0-9]+ \(rsyslogd\) on client request.
