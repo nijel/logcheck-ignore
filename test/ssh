@@ -10,3 +10,6 @@ Oct 17 22:35:50 admin sshd[51486]: error: kex_exchange_identification: banner li
 Oct 17 22:35:50 admin sshd[51486]: banner exchange: Connection from 159.65.39.244 port 56342: invalid format
 Oct 17 22:36:08 admin sshd[51489]: error: kex_exchange_identification: client sent invalid protocol identifier "GET / HTTP/1.1"
 Oct 17 22:36:08 admin sshd[51489]: banner exchange: Connection from 159.65.39.244 port 60862: invalid format
+Oct 21 23:46:01 admin sshd[603463]: error: kex_exchange_identification: client sent invalid protocol identifier "POST /run HTTP/1.1"
+Oct 21 23:46:01 admin sshd[603461]: error: kex_exchange_identification: Connection closed by remote host
+Oct 21 23:46:01 admin sshd[603461]: Connection closed by 159.89.186.28 port 36556
