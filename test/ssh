@@ -13,3 +13,5 @@ Oct 17 22:36:08 admin sshd[51489]: banner exchange: Connection from 159.65.39.24
 Oct 21 23:46:01 admin sshd[603463]: error: kex_exchange_identification: client sent invalid protocol identifier "POST /run HTTP/1.1"
 Oct 21 23:46:01 admin sshd[603461]: error: kex_exchange_identification: Connection closed by remote host
 Oct 21 23:46:01 admin sshd[603461]: Connection closed by 159.89.186.28 port 36556
+Oct 24 02:34:07 django sshd[6384]: Bad protocol version identification 'HEAD /trace HTTP/1.1' from 132.145.86.238 port 44346
+Oct 24 02:34:07 django sshd[6386]: Bad protocol version identification 'HEAD /health HTTP/1.1' from 132.145.86.238 port 49016
