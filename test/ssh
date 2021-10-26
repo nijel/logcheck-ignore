@@ -16,3 +16,4 @@ Oct 21 23:46:01 admin sshd[603461]: Connection closed by 159.89.186.28 port 3655
 Oct 24 02:34:07 django sshd[6384]: Bad protocol version identification 'HEAD /trace HTTP/1.1' from 132.145.86.238 port 44346
 Oct 24 02:34:07 django sshd[6386]: Bad protocol version identification 'HEAD /health HTTP/1.1' from 132.145.86.238 port 49016
 Oct 24 15:05:27 admin sshd[963005]: Received disconnect from 45.155.204.39 port 9070:11: Client disconnecting normally [preauth]
+Oct 24 19:54:24 web sshd[14569]: Unable to negotiate with 2001:41d0:1004:250:: port 54040: no matching host key type found. Their offer: sk-ssh-ed25519@openssh.com [preauth]

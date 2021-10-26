@@ -14,3 +14,4 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: kex_exchange_identification: Connection closed by remote host
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: banner exchange: Connection from [:.[:xdigit:]]+ port [0-9]+: invalid format
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: kex_exchange_identification: client sent invalid protocol identifier "(GET|POST) /[^[:space:]]* HTTP/1.1"
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [:.[:xdigit:]]+ port [0-9]+: no matching host key type found
