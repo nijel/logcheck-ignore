@@ -19,3 +19,7 @@ Oct 24 15:05:27 admin sshd[963005]: Received disconnect from 45.155.204.39 port 
 Oct 24 19:54:24 web sshd[14569]: Unable to negotiate with 2001:41d0:1004:250:: port 54040: no matching host key type found. Their offer: sk-ssh-ed25519@openssh.com [preauth]
 Oct 26 14:45:41 web sshd[25086]: Invalid user  from 2001:470:1:c84::28 port 51414
 Oct 26 14:45:45 web sshd[25086]: Connection closed by invalid user  2001:470:1:c84::28 port 51414 [preauth]
+Oct 26 14:56:26 django sshd[32563]: Protocol major versions differ for 132.145.86.238 port 33774: SSH-2.0-OpenSSH_7.9p1 Debian-10+deb10u2 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Oct 26 14:56:28 django sshd[32564]: Unable to negotiate with 132.145.86.238 port 33820: no matching host key type found. Their offer: ssh-dss [preauth]
+Oct 26 14:56:31 django sshd[32568]: Bad protocol version identification 'HEAD /trace HTTP/1.1' from 132.145.86.238 port 33902
+Oct 26 14:56:32 django sshd[32570]: Bad protocol version identification 'HEAD /health HTTP/1.1' from 132.145.86.238 port 33940
