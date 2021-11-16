@@ -23,3 +23,4 @@ Oct 26 14:56:26 django sshd[32563]: Protocol major versions differ for 132.145.8
 Oct 26 14:56:28 django sshd[32564]: Unable to negotiate with 132.145.86.238 port 33820: no matching host key type found. Their offer: ssh-dss [preauth]
 Oct 26 14:56:31 django sshd[32568]: Bad protocol version identification 'HEAD /trace HTTP/1.1' from 132.145.86.238 port 33902
 Oct 26 14:56:32 django sshd[32570]: Bad protocol version identification 'HEAD /health HTTP/1.1' from 132.145.86.238 port 33940
+Nov 16 17:12:10 admin sshd[3693892]: Unable to negotiate with 103.130.109.9 port 54216: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
