@@ -16,3 +16,4 @@ jobs:
       env:
         DEFAULT_BRANCH: master
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        YAML_CONFIG_FILE: .yamllint.yml
