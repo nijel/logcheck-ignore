@@ -11,3 +11,4 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dovecot: ssl-params: SSL parameters regeneration completed
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ auth: pam_unix\(dovecot:auth\): (check pass; user unknown|authentication failure)
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dovecot: imap-login: (Disconnected|Aborted)
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ dovecot: lda\([-_.@[:alnum:]]+\)(<[^>]*><[^>]*>)?: sieve: msgid=(\? )?(<?[^[:space:]]+(>|\.\.\.)?)? fileinto action: (stored mail into mailbox ('[^']*'|[A-Z]+)|marked message to be discarded if not explicitly delivered)
