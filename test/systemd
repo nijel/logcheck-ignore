@@ -9,3 +9,4 @@ Oct 27 09:09:43 admin systemd[1336961]: Finished Exit the Session.
 Nov  4 13:57:59 mort systemd[4708]: Starting D-Bus User Message Bus Socket.
 Nov  4 13:57:59 mort systemd[4708]: Listening on D-Bus User Message Bus Socket.
 Nov  4 14:00:00 mort systemd[4708]: Closed D-Bus User Message Bus Socket.
+Jan 27 12:39:05 web systemd[1]: Finished Clean php session files.
