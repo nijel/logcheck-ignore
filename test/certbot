@@ -1,0 +1,2 @@
+Jan 27 15:46:57 web systemd[1]: Finished Certbot.
+Jan 27 15:46:57 web systemd[1]: certbot.service: Consumed 1.954s CPU time.
