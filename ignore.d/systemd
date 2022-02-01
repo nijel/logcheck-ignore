@@ -30,5 +30,5 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Listening on D-Bus User Message Bus Socket.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Closed D-Bus User Message Bus Socket.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished Clean php session files.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: [a-z-].service: Consumed [0-9.]+s CPU time.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: [a-z-]+.service: Consumed [0-9.]+s CPU time.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished Online ext4 Metadata Check for All Filesystems.
