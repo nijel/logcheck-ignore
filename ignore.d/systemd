@@ -21,7 +21,7 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd-timesyncd\[[0-9]+\]: Synchronized to time server for the first time [0-9.:]+ \([0-9]+\.debian\.pool\.ntp\.org\)\.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Starting exim4-base housekeeping...
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished exim4-base housekeeping.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: rsyslog.service: Sent signal SIGHUP to main process [0-9]+ \(rsyslogd\) on client request.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: [a-z-]+.service: Sent signal SIGHUP to main process [0-9]+ \([a-z-]+\) on client request.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Queued start job for default target Main User Target.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Created slice User Application Slice.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Removed slice User Application Slice.
@@ -30,3 +30,4 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Listening on D-Bus User Message Bus Socket.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Closed D-Bus User Message Bus Socket.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished Clean php session files.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: [a-z-].service: Consumed [0-9.]+s CPU time.

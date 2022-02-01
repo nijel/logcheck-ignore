@@ -10,3 +10,6 @@ Nov  4 13:57:59 mort systemd[4708]: Starting D-Bus User Message Bus Socket.
 Nov  4 13:57:59 mort systemd[4708]: Listening on D-Bus User Message Bus Socket.
 Nov  4 14:00:00 mort systemd[4708]: Closed D-Bus User Message Bus Socket.
 Jan 27 12:39:05 web systemd[1]: Finished Clean php session files.
+Jan 30 00:00:13 mail systemd[1]: clamav-daemon.service: Sent signal SIGHUP to main process 601 (clamd) on client request.
+Jan 30 00:00:14 mail systemd[1]: clamav-freshclam.service: Sent signal SIGHUP to main process 556 (freshclam) on client request.
+Jan 30 00:00:20 mail systemd[1]: logrotate.service: Consumed 1.712s CPU time.
