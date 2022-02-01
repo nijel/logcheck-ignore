@@ -2,3 +2,5 @@ Nov 24 20:02:55 mail spamd[12305]: razor2: razor2 check failed: Connection reset
 Nov 24 07:22:28 mail spamd: spamd: restarting using '/usr/sbin/spamd -d --pidfile=/var/run/spamd.pid --create-prefs --max-children=32 --max-spare=16 --helper-home-dir'
 May  5 02:38:35 mail freshclam[24391]: Wed May  5 02:38:35 2021 -> bytecode.cld database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
 Jan 27 22:11:50 mail spamd[1060]: prefork: child states: IIIIIIIIIIIIIIII [... logline repeated 13 times]
+Jan 29 06:53:17 mail spamd: spamd: restarting using '/usr/sbin/spamd -d --pidfile=/run/spamd.pid --create-prefs --max-children=32 --max-spare=16 --helper-home-dir'
+Jan 29 06:53:21 mail spamd[346816]: spamd: server pid: 346816
