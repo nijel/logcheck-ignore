@@ -5,3 +5,4 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ clamd\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Database correctly reloaded \([0-9]+ signatures\)
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ clamd\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Activating the newly loaded database\.\.\.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ clamd\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?SIGHUP caught: re-opening log file.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ clamd\[[0-9]+\]: LibClamAV info: .*

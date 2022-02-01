@@ -1,1 +1,4 @@
 Jul 21 11:02:11 mail clamd[25604]: Wed Jul 21 11:02:11 2021 -> Activating the newly loaded database...
+Jan 27 21:15:38 mail clamd[601]: LibClamAV info: Suspicious link found!
+Jan 27 21:15:38 mail clamd[601]: LibClamAV info:   Real URL:    https://www.webmail.co.za
+Jan 27 21:15:38 mail clamd[601]: LibClamAV info:   Display URL: www.standardbank.co.za
