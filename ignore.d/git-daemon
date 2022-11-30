@@ -4,4 +4,4 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ git-daemon\[[[:digit:]]+\]: Extended attribute "protocol": version=2
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ git-daemon\[[[:digit:]]+\]: protocol error: bad line length character: GET
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ git-daemon\[[[:digit:]]+\]: Request upload-pack for '[-_./[:alnum:]]+'
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ git-daemon\[[[:digit:]]+\]: \[[[:digit:]]{2,5}\] Disconnected
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ git-daemon\[[[:digit:]]+\]: \[[[:digit:]]+\] Disconnected
