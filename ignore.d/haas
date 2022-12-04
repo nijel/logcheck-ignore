@@ -3,3 +3,4 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Started haas_proxy.
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: haas_proxy.service: Main process exited, code=killed, status=15/TERM
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: haas_proxy.service: Succeeded.
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: haas_proxy.service: Consumed [0-9.]+s CPU time.
