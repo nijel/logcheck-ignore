@@ -4,3 +4,8 @@ Nov 30 20:00:04 build git-daemon[131185]: Extended attribute "host": 192.168.3.9
 Nov 30 20:00:04 build git-daemon[131185]: Extended attribute "protocol": version=2
 Nov 30 20:00:04 build git-daemon[131185]: Request upload-pack for '/fakturace.git'
 Nov 30 20:00:04 build git-daemon[692]: [131185] Disconnected
+2023-09-07T15:58:55.344839+02:00 build git-daemon[194981]: Connection from 192.168.3.40:33886
+2023-09-07T15:58:55.434066+02:00 build git-daemon[194981]: Extended attribute "host": 192.168.3.90
+2023-09-07T15:58:55.434476+02:00 build git-daemon[194981]: Extended attribute "protocol": version=2
+2023-09-07T15:58:55.434775+02:00 build git-daemon[194981]: Request upload-pack for '/fakturace.git'
+2023-09-07T15:58:55.435624+02:00 build git-daemon[700]: [194981] Disconnected
