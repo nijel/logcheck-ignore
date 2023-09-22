@@ -1,2 +1,2 @@
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ svn: No worthy mechs found$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ svn: DIGEST-MD5 common mech free
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ svn: No worthy mechs found$
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ svn: DIGEST-MD5 common mech free

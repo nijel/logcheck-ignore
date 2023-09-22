@@ -1,1 +1,1 @@
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sa-exim\[[0-9]+\]: Removed [0-9]+ of [0-9]+ greylist (directories|tuplets) in [0-9]+ seconds
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sa-exim\[[0-9]+\]: Removed [0-9]+ of [0-9]+ greylist (directories|tuplets) in [0-9]+ seconds

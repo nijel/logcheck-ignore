@@ -1,2 +1,2 @@
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Reloading A high performance web server and a reverse proxy server.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Reloaded A high performance web server and a reverse proxy server.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Reloading A high performance web server and a reverse proxy server.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Reloaded A high performance web server and a reverse proxy server.

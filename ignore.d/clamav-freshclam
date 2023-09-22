@@ -1,14 +1,14 @@
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?(main|daily|safebrowsing|bytecode)\.c(l|v)d (database )?(is up[ -]to[ -]date|updated) \(version: [0-9]+, sigs: [0-9]+, f-level: [0-9]+, builder: \w+\)$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Downloading (daily|safebrowsing|bytecode)(-[0-9]+)?.(cdiff|cvd) \[(100%|\*)\] ?$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Empty script safebrowsing-[0-9]+.cdiff, need to download entire database$
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?(WARNING: |\^)Your ClamAV installation is OUTDATED!
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?(WARNING: |\^)Local version: [0-9.]+ Recommended version: [0-9.]+
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?DON'T PANIC! Read .*
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Database updated \([0-9]+ signatures\) from .*
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Received signal: wake up
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?ClamAV update process started at .*
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Clamd successfully notified about the update.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?[a-z]+ database available for update \(local version: [0-9]+, remote version: [0-9]+\)
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Testing database: '.*
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Database test passed.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Received signal: re-opening log file
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?(main|daily|safebrowsing|bytecode)\.c(l|v)d (database )?(is up[ -]to[ -]date|updated) \(version: [0-9]+, sigs: [0-9]+, f-level: [0-9]+, builder: \w+\)$
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Downloading (daily|safebrowsing|bytecode)(-[0-9]+)?.(cdiff|cvd) \[(100%|\*)\] ?$
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Empty script safebrowsing-[0-9]+.cdiff, need to download entire database$
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?(WARNING: |\^)Your ClamAV installation is OUTDATED!
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?(WARNING: |\^)Local version: [0-9.]+ Recommended version: [0-9.]+
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?DON'T PANIC! Read .*
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Database updated \([0-9]+ signatures\) from .*
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Received signal: wake up
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?ClamAV update process started at .*
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Clamd successfully notified about the update.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?[a-z]+ database available for update \(local version: [0-9]+, remote version: [0-9]+\)
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Testing database: '.*
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Database test passed.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ freshclam\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Received signal: re-opening log file

@@ -1,5 +1,5 @@
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ apt.systemd.daily\[[0-9]+]]: .*
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: apt-daily(-upgrade)?.timer: Adding [0-9.hmins ]* random time.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Starting Daily apt activities...
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Started Daily apt activities.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: apt-daily(-upgrade)?.service: Consumed [0-9.]+s CPU time.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ apt.systemd.daily\[[0-9]+]]: .*
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: apt-daily(-upgrade)?.timer: Adding [0-9.hmins ]* random time.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Starting Daily apt activities...
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Started Daily apt activities.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: apt-daily(-upgrade)?.service: Consumed [0-9.]+s CPU time.

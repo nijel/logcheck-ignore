@@ -1,34 +1,34 @@
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Starting Cleanup of Temporary Directories...
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Started Cleanup of Temporary Directories.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished Cleanup of Temporary Directories.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished User Runtime Directory /run/user/[0-9]+.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Startup finished in [0-9]+ms.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: (Removed|Created) slice User Slice of [a-zA-Z-]+
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd-logind\[[0-9]+\]: Removed session [0-9]+
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd-logind\[[0-9]+\]: New session [0-9]+ of user [a-zA-Z-]+
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd-logind\[[0-9]+\]: Session [0-9]+ logged out. Waiting for processes to exit.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Started Session [0-9]+ of user [a-zA-Z-]+
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: [a-z0-9-]+\.(scope|service): Succeeded.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ (systemd|runuser|su): pam_unix\((systemd-user|su|runuser):session\): session (opened|closed) for user [a-zA-Z-]+
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ su\[[0-9]+\]: pam_systemd\(su:session\): Cannot create session: Already running in a session
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Received SIGRTMIN\+24 from PID [0-9]+ \(kill\)\.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: [a-zA-Z0-9_@.-]+: Succeeded.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Starting Daily man-db regeneration...
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Started Daily man-db regeneration.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd-tmpfiles\[[0-9]+\]: \[[^]]+\] Line references path below legacy directory /var/run/, updating .*; please update the tmpfiles.d/ drop-in file accordingly.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: [^ ]*: [^= ]*= references path below legacy directory [^ ,]*, updating .*; please update the unit file accordingly.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd-timesyncd\[[0-9]+\]: Timed out waiting for reply from [0-9.:]+ \([0-9]+\.debian\.pool\.ntp\.org\)\.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd-timesyncd\[[0-9]+\]: Synchronized to time server for the first time [0-9.:]+ \([0-9]+\.debian\.pool\.ntp\.org\)\.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Starting exim4-base housekeeping...
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished exim4-base housekeeping.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: [a-z-]+.service: Sent signal SIGHUP to main process [0-9]+ \([a-z-]+\) on client request.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Queued start job for default target Main User Target.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Created slice User Application Slice.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Removed slice User Application Slice.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished Exit the Session.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Starting D-Bus User Message Bus Socket.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Listening on D-Bus User Message Bus Socket.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Closed D-Bus User Message Bus Socket.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished Clean php session files.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: [a-z-]+.service: Consumed [0-9.]+s CPU time.
-^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished Online ext4 Metadata Check for All Filesystems.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Starting Cleanup of Temporary Directories...
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Started Cleanup of Temporary Directories.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished Cleanup of Temporary Directories.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished User Runtime Directory /run/user/[0-9]+.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Startup finished in [0-9]+ms.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: (Removed|Created) slice User Slice of [a-zA-Z-]+
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd-logind\[[0-9]+\]: Removed session [0-9]+
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd-logind\[[0-9]+\]: New session [0-9]+ of user [a-zA-Z-]+
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd-logind\[[0-9]+\]: Session [0-9]+ logged out. Waiting for processes to exit.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Started Session [0-9]+ of user [a-zA-Z-]+
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: [a-z0-9-]+\.(scope|service): Succeeded.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ (systemd|runuser|su): pam_unix\((systemd-user|su|runuser):session\): session (opened|closed) for user [a-zA-Z-]+
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ su\[[0-9]+\]: pam_systemd\(su:session\): Cannot create session: Already running in a session
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Received SIGRTMIN\+24 from PID [0-9]+ \(kill\)\.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: [a-zA-Z0-9_@.-]+: Succeeded.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Starting Daily man-db regeneration...
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Started Daily man-db regeneration.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd-tmpfiles\[[0-9]+\]: \[[^]]+\] Line references path below legacy directory /var/run/, updating .*; please update the tmpfiles.d/ drop-in file accordingly.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: [^ ]*: [^= ]*= references path below legacy directory [^ ,]*, updating .*; please update the unit file accordingly.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd-timesyncd\[[0-9]+\]: Timed out waiting for reply from [0-9.:]+ \([0-9]+\.debian\.pool\.ntp\.org\)\.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd-timesyncd\[[0-9]+\]: Synchronized to time server for the first time [0-9.:]+ \([0-9]+\.debian\.pool\.ntp\.org\)\.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Starting exim4-base housekeeping...
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished exim4-base housekeeping.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: [a-z-]+.service: Sent signal SIGHUP to main process [0-9]+ \([a-z-]+\) on client request.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Queued start job for default target Main User Target.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Created slice User Application Slice.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Removed slice User Application Slice.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished Exit the Session.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Starting D-Bus User Message Bus Socket.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Listening on D-Bus User Message Bus Socket.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Closed D-Bus User Message Bus Socket.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished Clean php session files.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: [a-z-]+.service: Consumed [0-9.]+s CPU time.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished Online ext4 Metadata Check for All Filesystems.
