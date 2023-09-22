@@ -26,3 +26,5 @@ Oct 26 14:56:32 django sshd[32570]: Bad protocol version identification 'HEAD /h
 Nov 16 17:12:10 admin sshd[3693892]: Unable to negotiate with 103.130.109.9 port 54216: no matching key exchange method found. Their offer: diffie-hellman-group14-sha1,diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]
 Jan 28 19:55:13 admin sshd[1442824]: error: Protocol major versions differ: 2 vs. 1
 Jan 28 19:55:13 admin sshd[1442824]: banner exchange: Connection from 2604:a880:800:10::5b7:5001 port 35724: could not read protocol version
+2023-09-21T15:51:34.389160+02:00 build sshd[1692280]: pam_env(sshd:session): deprecated reading of user environment enabled
+Sep 21 15:51:19 build sshd[1692264]: pam_env(sshd:session): deprecated reading of user environment enabled
