@@ -3,6 +3,6 @@
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Closed GnuPG cryptographic agent
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Closed GnuPG network certificate management daemon
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: gpgconf: error running '/usr/lib/gnupg/scdaemon': probably not installed
-^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ gpg-agent\[[0-9]+\]: gpg-agent (GnuPG) [0-9.]+ starting in supervised mode.
-^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ gpg-agent\[[0-9]+\]: using fd [0-9]+ for extra socket \([^)]+\)
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ gpg-agent\[[0-9]+\]: gpg-agent \(GnuPG\) [0-9.]+ starting in supervised mode.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ gpg-agent\[[0-9]+\]: using fd [0-9]+ for [a-z]+ socket \([^)]+\)
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ gpg-agent\[[0-9]+\]: listening on: .*
