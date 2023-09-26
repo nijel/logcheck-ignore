@@ -1,2 +1,2 @@
-^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ (rsyslogd|liblogging-stdlog)(\[[0-9]+\)?: ? \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https?://www.rsyslog.com"\] rsyslogd was HUPed$
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ (rsyslogd|liblogging-stdlog)(\[[0-9]+)?: ? \[origin software="rsyslogd" swVersion="[0-9.]+" x-pid="[0-9]+" x-info="https?://www.rsyslog.com"\] rsyslogd was HUPed$
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: rsyslog.service: Sent signal SIGHUP to main process [0-9]+ \(rsyslogd\) on client request.
