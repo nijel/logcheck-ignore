@@ -28,3 +28,5 @@ Jan 28 19:55:13 admin sshd[1442824]: error: Protocol major versions differ: 2 vs
 Jan 28 19:55:13 admin sshd[1442824]: banner exchange: Connection from 2604:a880:800:10::5b7:5001 port 35724: could not read protocol version
 2023-09-21T15:51:34.389160+02:00 build sshd[1692280]: pam_env(sshd:session): deprecated reading of user environment enabled
 Sep 21 15:51:19 build sshd[1692264]: pam_env(sshd:session): deprecated reading of user environment enabled
+2023-10-02T09:57:53.829865+02:00 admin sshd[3906616]: fatal: Timeout before authentication for 101.43.164.6 port 35100
+Oct 02 09:02:47 admin sshd[3900633]: fatal: Timeout before authentication for 221.195.80.203 port 43822
