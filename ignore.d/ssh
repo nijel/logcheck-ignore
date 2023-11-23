@@ -1,5 +1,5 @@
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Received disconnect from [:.[:xdigit:]]+: 11: ok \[preauth\]$
-^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Connection closed by [:.[:xdigit:]]+ port [0-9]+
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Connection (closed|reset) by [:.[:xdigit:]]+ port [0-9]+
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Accepted (gssapi(-with-mic|-keyex)?|rsa|dsa|password|publickey|keyboard-interactive/pam|hostbased) for [^[:space:]]+ from [^[:space:]]+ port [[:digit:]]+( (ssh|ssh2))?(: (RSA|ECDSA|ED25519) ([[:xdigit:]]{2}:){15}[[:xdigit:]]{2})?$
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Disconnected from user [a-z]+ [:.[:xdigit:]]+ port [0-9]+
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Postponed publickey for [a-z]+ from [:.[:xdigit:]]+ port [0-9]+ ssh2 \[preauth\]
@@ -11,7 +11,7 @@
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Bad protocol version identification '(GET|POST|HEAD) /[^[:space:]]* HTTP/1.1' from [:.[:xdigit:]]+ port [0-9]+
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Did not receive identification string from [:.[:xdigit:]]+ port [0-9]+
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: kex_exchange_identification: banner line contains invalid characters
-^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: kex_exchange_identification: Connection closed by remote host
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: kex_exchange_identification: (Connection closed by remote host|read: Connection reset by peer)
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: banner exchange: Connection from [:.[:xdigit:]]+ port [0-9]+: (invalid format|could not read protocol version)
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: kex_exchange_identification: client sent invalid protocol identifier "(GET|POST) /[^[:space:]]* HTTP/1.1"
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Unable to negotiate with [:.[:xdigit:]]+ port [0-9]+: no matching (host key type|key exchange method) found

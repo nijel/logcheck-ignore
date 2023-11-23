@@ -30,3 +30,5 @@ Jan 28 19:55:13 admin sshd[1442824]: banner exchange: Connection from 2604:a880:
 Sep 21 15:51:19 build sshd[1692264]: pam_env(sshd:session): deprecated reading of user environment enabled
 2023-10-02T09:57:53.829865+02:00 admin sshd[3906616]: fatal: Timeout before authentication for 101.43.164.6 port 35100
 Oct 02 09:02:47 admin sshd[3900633]: fatal: Timeout before authentication for 221.195.80.203 port 43822
+Nov 23 07:04:14 web sshd[28224]: error: kex_exchange_identification: read: Connection reset by peer
+Nov 23 07:04:14 web sshd[28224]: Connection reset by 183.242.86.204 port 45638
