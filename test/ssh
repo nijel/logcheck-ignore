@@ -32,3 +32,4 @@ Sep 21 15:51:19 build sshd[1692264]: pam_env(sshd:session): deprecated reading o
 Oct 02 09:02:47 admin sshd[3900633]: fatal: Timeout before authentication for 221.195.80.203 port 43822
 Nov 23 07:04:14 web sshd[28224]: error: kex_exchange_identification: read: Connection reset by peer
 Nov 23 07:04:14 web sshd[28224]: Connection reset by 183.242.86.204 port 45638
+Nov 23 06:40:16 django sshd[3568276]: Connection reset by invalid user aed 124.234.209.245 port 38713 [preauth]
