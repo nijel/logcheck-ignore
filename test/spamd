@@ -4,3 +4,4 @@ May  5 02:38:35 mail freshclam[24391]: Wed May  5 02:38:35 2021 -> bytecode.cld 
 Jan 27 22:11:50 mail spamd[1060]: prefork: child states: IIIIIIIIIIIIIIII [... logline repeated 13 times]
 Jan 29 06:53:17 mail spamd: spamd: restarting using '/usr/sbin/spamd -d --pidfile=/run/spamd.pid --create-prefs --max-children=32 --max-spare=16 --helper-home-dir'
 Jan 29 06:53:21 mail spamd[346816]: spamd: server pid: 346816
+2023-12-06T07:02:12.262779+01:00 mail spamd[618]: prefork: adjust: 0 idle children less than 1 minimum idle children.  Increasing spamd children: 134598 started.
