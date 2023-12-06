@@ -5,3 +5,8 @@ Jan 27 22:11:50 mail spamd[1060]: prefork: child states: IIIIIIIIIIIIIIII [... l
 Jan 29 06:53:17 mail spamd: spamd: restarting using '/usr/sbin/spamd -d --pidfile=/run/spamd.pid --create-prefs --max-children=32 --max-spare=16 --helper-home-dir'
 Jan 29 06:53:21 mail spamd[346816]: spamd: server pid: 346816
 2023-12-06T07:02:12.262779+01:00 mail spamd[618]: prefork: adjust: 0 idle children less than 1 minimum idle children.  Increasing spamd children: 134598 started.
+2023-12-06T09:23:49.994024+01:00 mail spamd[147508]: async: aborting after 3.739 s, deadline shrunk: DNSBL, A/1.1.3.8.dnsbl.sorbs.net, rules: __RCVD_IN_SORBS
+2023-12-06T09:47:01.121905+01:00 mail spamd[147508]: async: aborting after 3.907 s, deadline shrunk: DNSBL, A/2.2.0.8.dnsbl.sorbs.net, rules: RCVD_IN_SORBS_DUL, __RCVD_IN_SORBS
+2023-12-06T09:47:01.122340+01:00 mail spamd[147508]: async: aborting after 3.906 s, deadline shrunk: DNSBL, A/1.9.2.8.dnsbl.sorbs.net, rules: __RCVD_IN_SORBS
+2023-12-06T09:48:53.705608+01:00 mail spamd[147508]: readline() on closed filehandle INFILE at /usr/share/perl5/FuzzyOcr/Misc.pm line 205.
+2023-12-06T09:48:53.743962+01:00 mail spamd[147508]: FuzzyOcr: Unable to read output from "/tmp/.spamassassin147508x4X3xrtmp/scanset.tesseract.out.txt" for scanset tesseract
