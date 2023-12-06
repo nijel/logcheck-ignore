@@ -1,3 +1,5 @@
 Nov 25 06:21:16 mail dovecot: lda(somebody)<15026><23UgK8vpvV+yOgAAn2Ztdg>: msgid=? <VI1PR10MB2768D36C68484E6673CE1F4684FA0@VI1PR10MB2768.EURPRD10.PROD.OUTLOOK.COM>: saved mail to INBOX
 Nov 24 13:17:36 mail dovecot: lda(nijel)<3532><6HxbHOD5vF/MDQAAn2Ztdg>: Warning: Failed to parse address from `From_'-line: Missing domain
 Jan 27 12:02:06 mail dovecot: lda(nijel)<18387><Y3Y1Aa578mHTRwAAn2Ztdg>: sieve: msgid=<E1nD2XV-0004mN-5x@mail.cihar.com>: fileinto action: stored mail into mailbox 'Logs'
+2023-12-05T18:02:11.821779+01:00 mail dovecot: imap(weblate)<30326><U7MRMsYLEOUqAQT4DCyamgAAAAAAAAAB>: Disconnected: Connection closed (EXPUNGE finished 0.010 secs ago) in=76 out=887 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+2023-12-05T18:02:27.683862+01:00 mail dovecot: imap(weblate)<30365><sdQBM8YLKsYgARUoATberb7vQkIAAABA>: Disconnected: Connection closed (SELECT finished 0.202 secs ago) in=22 out=764 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
