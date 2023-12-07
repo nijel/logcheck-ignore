@@ -1,1 +1,1 @@
-^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ borgmatic(\[[0-9]+\])?: INGO .*: Pruning archives
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ borgmatic(\[[0-9]+\])?: INFO
