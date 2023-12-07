@@ -9,6 +9,6 @@
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ dovecot(\[[0-9]+\])?: imap\([^)]*\)(<[^>]*><[^>]*>)?: (Connection closed|Disconnected: Inactivity|Disconnected: Connection closed|Disconnected: Logged out|Logged out|Disconnected: Disconnected in IDLE|Disconnected for inactivity)
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ dovecot(\[[0-9]+\])?: ssl-params: Generating SSL parameters
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ dovecot(\[[0-9]+\])?: ssl-params: SSL parameters regeneration completed
-^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ auth: pam_unix\(dovecot:auth\): (check pass; user unknown|authentication failure)
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ auth(\[[0-9]+\])?: pam_unix\(dovecot:auth\): (check pass; user unknown|authentication failure)
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ dovecot(\[[0-9]+\])?: imap-login: (Disconnected|Aborted)
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ dovecot(\[[0-9]+\])?: lda\([-_.@[:alnum:]]+\)(<[^>]*><[^>]*>)?: sieve: msgid=(\? )?(<?[^[:space:]]+(>|\.\.\.)?)? fileinto action: (stored mail into mailbox ('[^']*'|[A-Z]+)|marked message to be discarded if not explicitly delivered)
