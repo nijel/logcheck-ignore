@@ -2,3 +2,7 @@ Dec 21 17:25:02 web matomo-archive: INFO [2020-12-21 16:25:02] 15546  ----------
 Dec 21 17:25:02 web matomo-archive: INFO [2020-12-21 16:25:02] 15546  INIT
 Dec 21 17:25:02 web matomo-archive: INFO [2020-12-21 16:25:02] 15546  Running Matomo 4.0.5 as Super User
 Dec 21 17:25:02 web matomo-archive: INFO [2020-12-21 16:25:02] 15546  ---------------------------
+Dec 06 22:25:02 web matomo-archive[95237]: INFO [2023-12-06 21:25:02] 95236  ---------------------------
+Dec 06 22:25:02 web matomo-archive[95237]: INFO [2023-12-06 21:25:02] 95236  INIT
+Dec 06 22:25:02 web matomo-archive[95237]: INFO [2023-12-06 21:25:02] 95236  Running Matomo 4.16.0 as Super User
+Dec 06 22:25:02 web matomo-archive[95237]: INFO [2023-12-06 21:25:02] 95236  ---------------------------
