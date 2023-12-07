@@ -6,3 +6,5 @@ Jan 27 12:02:06 mail dovecot: lda(nijel)<18387><Y3Y1Aa578mHTRwAAn2Ztdg>: sieve: 
 Dec 06 09:02:18 mail dovecot[950]: imap(weblate)<150087><C/EjxdILjqAqAQT4DCyamgAAAAAAAAAB>: Disconnected: Connection closed (EXPUNGE finished 0.011 secs ago) in=76 out=887 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
 Dec 06 09:02:07 mail dovecot[150035]: lda(nijel)<150035><AwvXEX8qcGUTSgIAn2Ztdg>: sieve: msgid=<E1rAmr7-000d1k-1q@mail.cihar.com>: fileinto action: stored mail into mailbox 'Logs'
 2023-12-06T22:07:25.434988+01:00 mail dovecot: imap(xxx)<254951><Y3VlUd0LbrHUT256>: Disconnected: Inactivity - no input for 1800 secs in=803 out=7155 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Dec 06 22:11:12 mail auth[255387]: pam_unix(dovecot:auth): check pass; user unknown
+Dec 06 22:11:12 mail auth[255387]: pam_unix(dovecot:auth): authentication failure; logname= uid=0 euid=0 tty=dovecot ruser=imback@cihar.com rhost=201.242.53.77
