@@ -6,7 +6,7 @@
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ dovecot(\[[0-9]+\])?: lda\([-_.@[:alnum:]]+\)(<[^>]*><[^>]*>)?: sieve: msgid=(\? )?(<?[^[:space:]]+(>|\.\.\.)?)?( \((added by [^[:space:]]+|sfid-[_[:xdigit:]]+)\))?: (stored mail into mailbox ('[^']*'|[A-Z]+)|marked message to be discarded if not explicitly delivered)
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ dovecot(\[[0-9]+\])?: lda\([-_.@[:alnum:]]+\)(<[^>]*><[^>]*>)?: Warning: Failed to parse address from `From_'-line: Missing domain
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ dovecot(\[[0-9]+\])?: imap-login: Login: user=<[^>]*>, method=[A-Z]*, rip=[0-9a-f:.]*, lip=[0-9a-f:.]*, mpid=[0-9]*, TLS
-^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ dovecot(\[[0-9]+\])?: imap\([^)]*\)(<[^>]*><[^>]*>)?: (Connection closed|Disconnected: Connection closed|Disconnected: Logged out|Logged out|Disconnected: Disconnected in IDLE|Disconnected for inactivity)
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ dovecot(\[[0-9]+\])?: imap\([^)]*\)(<[^>]*><[^>]*>)?: (Connection closed|Disconnected: Inactivity|Disconnected: Connection closed|Disconnected: Logged out|Logged out|Disconnected: Disconnected in IDLE|Disconnected for inactivity)
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ dovecot(\[[0-9]+\])?: ssl-params: Generating SSL parameters
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ dovecot(\[[0-9]+\])?: ssl-params: SSL parameters regeneration completed
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ auth: pam_unix\(dovecot:auth\): (check pass; user unknown|authentication failure)
