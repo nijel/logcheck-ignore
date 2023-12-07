@@ -40,4 +40,4 @@
 
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: server pid: [0-9]+
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: readline\(\) on closed filehandle INFILE at /usr/share/perl5/FuzzyOcr/Misc.pm line 205.
-^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: async: aborting after [0-9.]* s, deadline shrunk: DNSBL
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: async: aborting after [0-9.]* s, deadline shrunk: (DNSBL|AskDNS)
