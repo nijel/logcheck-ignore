@@ -1,0 +1,8 @@
+2023-12-07T00:05:00.532975+01:00 web cleandb.sh[111757]: 0 records deleted from 'contacts'
+2023-12-07T00:05:00.547936+01:00 web cleandb.sh[111757]: 0 records deleted from 'contactgroups'
+2023-12-07T00:05:00.556678+01:00 web cleandb.sh[111757]: 0 records deleted from 'identities'
+2023-12-07T00:05:00.562440+01:00 web cleandb.sh[111757]: 0 records deleted from 'responses'
+Dec 07 00:05:00 web cleandb.sh[111757]: 0 records deleted from 'contacts'
+Dec 07 00:05:00 web cleandb.sh[111757]: 0 records deleted from 'contactgroups'
+Dec 07 00:05:00 web cleandb.sh[111757]: 0 records deleted from 'identities'
+Dec 07 00:05:00 web cleandb.sh[111757]: 0 records deleted from 'responses'
