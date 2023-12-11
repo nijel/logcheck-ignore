@@ -33,3 +33,5 @@ Oct 02 09:02:47 admin sshd[3900633]: fatal: Timeout before authentication for 22
 Nov 23 07:04:14 web sshd[28224]: error: kex_exchange_identification: read: Connection reset by peer
 Nov 23 07:04:14 web sshd[28224]: Connection reset by 183.242.86.204 port 45638
 Nov 23 06:40:16 django sshd[3568276]: Connection reset by invalid user aed 124.234.209.245 port 38713 [preauth]
+2023-12-11T11:06:20.219363+01:00 build sshd[1888694]: userauth_pubkey: signature algorithm ssh-rsa not in PubkeyAcceptedAlgorithms [preauth]
+2023-12-11T11:06:20.541867+01:00 build sshd[1888694]: error: maximum authentication attempts exceeded for root from 2a02:d480:4c0:10d4:42::1 port 43488 ssh2 [preauth]
