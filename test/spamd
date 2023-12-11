@@ -12,3 +12,4 @@ Dec 06 22:17:11 mail spamd[147508]: async: aborting after 5.814 s, deadline shru
 2023-12-06T09:48:53.705608+01:00 mail spamd[147508]: readline() on closed filehandle INFILE at /usr/share/perl5/FuzzyOcr/Misc.pm line 205.
 2023-12-06T09:48:53.743962+01:00 mail spamd[147508]: FuzzyOcr: Unable to read output from "/tmp/.spamassassin147508x4X3xrtmp/scanset.tesseract.out.txt" for scanset tesseract
 2023-12-07T00:02:22.122908+01:00 mail spamd[147509]: pyzor: failure to parse response "public.pyzor.org:24441\t(504, 'Reading response timed-out.')"
+Dec 10 14:00:42 mail spamd[916537]: util: idn_to_ascii: conversion to ACE failed, A-label roundtrip failed: '\\users\\administrator\\desktop\\\x{E5}\x{B0}\x{8F}\x{E7}\x{A8}\x{8B}\x{E5}\x{BA}\x{8F}.png' (charset UTF-8) (LibIDN2)

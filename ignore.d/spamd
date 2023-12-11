@@ -42,3 +42,4 @@
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: readline\(\) on closed filehandle INFILE at /usr/share/perl5/FuzzyOcr/Misc.pm line 205.
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: async: aborting after [0-9.]* s, deadline shrunk: (DNSBL|AskDNS|URIBL)
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: pyzor: failure to parse response
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: util: idn_to_ascii: conversion to ACE failed
