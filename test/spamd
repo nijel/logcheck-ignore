@@ -35,3 +35,7 @@ Dec 13 12:21:55 mail spamd[1506181]: FuzzyOcr: Cannot remove DIR: /tmp/.spamassa
 Dec 13 12:21:58 mail spamd[1506181]: FuzzyOcr: Errors in Scanset "ocrad"
 Dec 13 12:21:58 mail spamd[1506181]: FuzzyOcr: Return code: 256, Error:
 Dec 13 12:21:58 mail spamd[1506181]: FuzzyOcr: Skipping scanset because of errors, trying next...
+2023-12-13T13:02:14.195933+01:00 mail spamd[1506181]: dns: no callback for id 62281/IN/A/10.239.102.199.dnsbl.sorbs.net, ignored, packet on next debug line
+2023-12-13T13:02:14.197379+01:00 mail spamd[1506181]: dns: no likely matching queries for id 62281
+Dec 13 13:02:14 mail spamd[1506181]: dns: no callback for id 62281/IN/A/10.239.102.199.dnsbl.sorbs.net, ignored, packet on next debug line
+Dec 13 13:02:14 mail spamd[1506181]: dns: no likely matching queries for id 62281
