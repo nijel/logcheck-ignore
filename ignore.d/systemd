@@ -32,3 +32,5 @@
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished Clean php session files.
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: [a-z-]+.service: Consumed [0-9.]+s CPU time.
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Finished Online ext4 Metadata Check for All Filesystems.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd-journald\[[0-9]+\]: Data hash table of .* has a fill level at .*
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd-journald\[[0-9]+\]: .*: Journal header limits reached or header out-of-date, rotating.
