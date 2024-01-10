@@ -1,0 +1,6 @@
+2024-01-07T19:08:02.054298+01:00 web systemd[1]: Reloading nginx.service - A high performance web server and a reverse proxy server...
+2024-01-07T19:08:02.378525+01:00 web nginx[3898162]: 2024/01/07 19:08:02 [notice] 3898162#3898162: signal process started
+2024-01-07T19:08:02.382007+01:00 web systemd[1]: Reloaded nginx.service - A high performance web server and a reverse proxy server.
+Jan 07 19:08:02 web systemd[1]: Reloading nginx.service - A high performance web server and a reverse proxy server...
+Jan 07 19:08:02 web nginx[3898162]: 2024/01/07 19:08:02 [notice] 3898162#3898162: signal process started
+Jan 07 19:08:02 web systemd[1]: Reloaded nginx.service - A high performance web server and a reverse proxy server.
