@@ -39,3 +39,5 @@ Dec 13 12:21:58 mail spamd[1506181]: FuzzyOcr: Skipping scanset because of error
 2023-12-13T13:02:14.197379+01:00 mail spamd[1506181]: dns: no likely matching queries for id 62281
 Dec 13 13:02:14 mail spamd[1506181]: dns: no callback for id 62281/IN/A/10.239.102.199.dnsbl.sorbs.net, ignored, packet on next debug line
 Dec 13 13:02:14 mail spamd[1506181]: dns: no likely matching queries for id 62281
+2024-01-10T13:53:50.926020+01:00 mail spamd[2947960]: plugin: eval failed: DKIM value domain is required! at /usr/share/perl5/Mail/DMARC.pm line 129.
+Jan 10 13:53:50 mail spamd[2947960]: plugin: eval failed: DKIM value domain is required! at /usr/share/perl5/Mail/DMARC.pm line 129.
