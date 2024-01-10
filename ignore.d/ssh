@@ -6,7 +6,7 @@
 
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Invalid user [^[:space:]]* from [:.[:xdigit:]]+ port [0-9]+
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Received disconnect from [:.[:xdigit:]]+ port [0-9]+:[0-9]+: (Normal Shutdown, Thank you for playing|Client disconnecting normally) \[preauth\]
-^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Disconnected from (invalid|authenticating) user [^[:space:]]+ [:.[:xdigit:]]+ port [0-9]+ \[preauth\]
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Disconnected (from )?(invalid|authenticating) user [^[:space:]]+ [:.[:xdigit:]]+ port [0-9]+ \[preauth\]
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Connection (closed|reset) by (invalid|authenticating) user [^[:space:]]* [:.[:xdigit:]]+ port [0-9]+ \[preauth\]
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Bad protocol version identification '(GET|POST|HEAD) /[^[:space:]]* HTTP/1.1' from [:.[:xdigit:]]+ port [0-9]+
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: Did not receive identification string from [:.[:xdigit:]]+ port [0-9]+
@@ -19,5 +19,5 @@
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: fatal: Timeout before authentication for [:.[:xdigit:]]+ port [0-9]+
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: Protocol major versions differ: [0-9] vs. [0-9]
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: pam_env\(sshd:session\): deprecated reading of user environment enabled
-^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: userauth_pubkey: signature algorithm ssh-rsa not in PubkeyAcceptedAlgorithms
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: userauth_pubkey: signature algorithm (ssh-rsa|ssh-dss) not in PubkeyAcceptedAlgorithms
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ sshd\[[[:digit:]]+\]: error: maximum authentication attempts exceeded for
