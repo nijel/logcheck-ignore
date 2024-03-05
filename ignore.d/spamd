@@ -26,6 +26,9 @@
 
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Reloading Perl-based spam filter using text analysis.
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Reloaded Perl-based spam filter using text analysis.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Reloading spamd.service - Perl-based spam filter using text analysis...
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ systemd\[[0-9]+\]: Reloaded spamd.service - Perl-based spam filter using text analysis.
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ runuser\[[0-9]+\]: pam_unix\(runuser:session\): session opened for user debian-spamd\(uid=[0-9]+\) by \(uid=0\)
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: server socket closed, type IO::Socket::IP
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: server started on (IO::Socket::IP \[[0-9a-f:.]+\]:[0-9]+(, )?)+ \(running version [0-9.]+\)
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: razor2: razor2 check failed: Connection reset by peer razor2: razor2 had unknown error during check at /usr/share/perl5/Mail/SpamAssassin/Plugin/Razor2.pm line [0-9]+, <[A-Z0-9]+> line 1. at /usr/share/perl5/Mail/SpamAssassin/Plugin/Razor2.pm line [0-9]+.
@@ -41,3 +44,5 @@
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: util: idn_to_ascii: conversion to ACE failed
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: SPF domain is required but missing!
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: plugin: eval failed: DKIM value domain is required!
+
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: restarting using .*

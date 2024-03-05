@@ -41,3 +41,10 @@ Dec 13 13:02:14 mail spamd[1506181]: dns: no callback for id 62281/IN/A/10.239.1
 Dec 13 13:02:14 mail spamd[1506181]: dns: no likely matching queries for id 62281
 2024-01-10T13:53:50.926020+01:00 mail spamd[2947960]: plugin: eval failed: DKIM value domain is required! at /usr/share/perl5/Mail/DMARC.pm line 129.
 Jan 10 13:53:50 mail spamd[2947960]: plugin: eval failed: DKIM value domain is required! at /usr/share/perl5/Mail/DMARC.pm line 129.
+2024-02-14T06:33:43.085040+01:00 mail systemd[1]: Reloading spamd.service - Perl-based spam filter using text analysis...
+2024-02-14T06:33:43.134302+01:00 mail systemd[1]: Reloaded spamd.service - Perl-based spam filter using text analysis.
+2024-02-14T06:33:43.173213+01:00 mail spamd: spamd: restarting using '/usr/bin/perl -T -w -I /etc/perl -I /usr/lib/x86_64-linux-gnu/perl5/5.36 -I /usr/share/perl5 -I /usr/lib/x86_64-linux-gnu/perl-base -I /usr/lib/x86_64-linux-gnu/perl/5.36 -I /usr/share/perl/5.36 /usr/sbin/spamd --pidfile=/run/spamd.pid --create-prefs --max-children 10 --helper-home-dir'
+Feb 14 06:33:42 mail runuser[1512032]: pam_unix(runuser:session): session opened for user debian-spamd(uid=108) by (uid=0)
+Feb 14 06:33:43 mail systemd[1]: Reloading spamd.service - Perl-based spam filter using text analysis...
+Feb 14 06:33:43 mail systemd[1]: Reloaded spamd.service - Perl-based spam filter using text analysis.
+Feb 14 06:33:43 mail spamd[147498]: spamd: restarting using '/usr/bin/perl -T -w -I /etc/perl -I /usr/lib/x86_64-linux-gnu/perl5/5.36 -I /usr/share/perl5 -I /usr/lib/x86_64-linux-gnu/perl-base -I /usr/lib/x86_64-linux-gnu/perl/5.36 -I /usr/share/perl/5.36 /usr/sbin/spamd --pidfile=/run/spamd.pid --create-prefs --max-children 10 --helper-home-dir'
