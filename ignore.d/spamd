@@ -11,7 +11,7 @@
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: zoom: able to use [0-9/]+ 'body_0' compiled rules \([0-9.]+%\)
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: Couldn't get Connecting IP header X-SA-Exim-Connect-IP for message <[0-9.]+@spamassassin_spamd_init>, skipping greylisting call
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: server started on port 783/tcp \(running version [0-9.]+\)
-^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd(\.pid)?(\[[0-9]+\])?: spamd: restarting using '/usr/sbin/spamd .*
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd(\.pid)?(\[[0-9]+\])?: spamd: restarting using .*
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: dns: .*
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: util: setuid: ruid=101 euid=101 rgid=103 103 egid=103 103
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: util: setuid: ruid=0 euid=0 rgid=0 egid=0
@@ -46,5 +46,3 @@
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: util: idn_to_ascii: conversion to ACE failed
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: SPF domain is required but missing!
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: plugin: eval failed: DKIM value domain is required!
-
-^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: restarting using .*
