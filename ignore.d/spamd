@@ -33,6 +33,8 @@
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: spamd: server started on (IO::Socket::IP \[[0-9a-f:.]+\]:[0-9]+(, )?)+ \(running version [0-9.]+\)
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: razor2: razor2 check failed: Connection reset by peer razor2: razor2 had unknown error during check at /usr/share/perl5/Mail/SpamAssassin/Plugin/Razor2.pm line [0-9]+, <[A-Z0-9]+> line 1. at /usr/share/perl5/Mail/SpamAssassin/Plugin/Razor2.pm line [0-9]+.
 
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: razor2: razor2 check failed: Connection refused razor2: .*
+
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ freshclam\[[0-9]+\]: \w{3} \w{3} [ :0-9]{16} -> [a-z90-9_]+\.cld database is up-to-date \(version: [0-9]+, sigs: [0-9]+, f-level: [0-9]+, builder: [a-z0-9_]+\)
 
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ spamd\[[0-9]+\]: prefork: child states: .*
