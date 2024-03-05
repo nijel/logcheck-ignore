@@ -6,3 +6,4 @@
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ clamd\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?Activating the newly loaded database\.\.\.
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ clamd\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )?SIGHUP caught: re-opening log file.
 ^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ clamd\[[0-9]+\]: LibClamAV info: .*
+^(\w{3} [ :0-9]{11}|[0-9T:.+-]{32}) [._[:alnum:]-]+ clamd\[[0-9]+\]: (\w{3} \w{3} [ :0-9]{16} -> )? /var/spool/exim4/.* FOUND

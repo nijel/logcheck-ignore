@@ -2,3 +2,4 @@ Jul 21 11:02:11 mail clamd[25604]: Wed Jul 21 11:02:11 2021 -> Activating the ne
 Jan 27 21:15:38 mail clamd[601]: LibClamAV info: Suspicious link found!
 Jan 27 21:15:38 mail clamd[601]: LibClamAV info:   Real URL:    https://www.webmail.co.za
 Jan 27 21:15:38 mail clamd[601]: LibClamAV info:   Display URL: www.standardbank.co.za
+2024-02-14T02:46:05.319269+01:00 mail clamd[551]: Wed Feb 14 02:46:05 2024 -> /var/spool/exim4/scan/1ra4Lb-006Du1-1y/1ra4Lb-006Du1-1y.eml: Win.Worm.Lovgate-4(0ef3fe43a6977b63caafdc46824fbc83:174372) FOUND
