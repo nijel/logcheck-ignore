@@ -49,3 +49,5 @@ Feb 14 06:33:43 mail systemd[1]: Reloading spamd.service - Perl-based spam filte
 Feb 14 06:33:43 mail systemd[1]: Reloaded spamd.service - Perl-based spam filter using text analysis.
 Feb 14 06:33:43 mail spamd[147498]: spamd: restarting using '/usr/bin/perl -T -w -I /etc/perl -I /usr/lib/x86_64-linux-gnu/perl5/5.36 -I /usr/share/perl5 -I /usr/lib/x86_64-linux-gnu/perl-base -I /usr/lib/x86_64-linux-gnu/perl/5.36 -I /usr/share/perl/5.36 /usr/sbin/spamd --pidfile=/run/spamd.pid --create-prefs --max-children 10 --helper-home-dir'
 2024-03-03T13:02:14.517628+01:00 mail spamd[1172815]: razor2: razor2 check failed: Connection refused razor2: razor2 had unknown error during get_server_info at /usr/share/perl5/Mail/SpamAssassin/Plugin/Razor2.pm line 207. at /usr/share/perl5/Mail/SpamAssassin/Plugin/Razor2.pm line 350.
+2024-02-26T13:11:35.498873+01:00 mail spamd[147498]: prefork: server reached --max-children setting, consider raising it
+Feb 26 13:11:35 mail spamd[147498]: prefork: server reached --max-children setting, consider raising it
